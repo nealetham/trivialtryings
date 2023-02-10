@@ -43,7 +43,7 @@ export default function Home() {
                 <a className='text-2xl font-burtons text-gray-800 dark:text-white pt-4 ml-4' href='#projects'>projects</a>
               </li>
               <li>
-                <a className='text-2xl font-burtons text-gray-800 dark:text-white pt-4 ml-4' href='#'>resume</a>
+                <a className='text-2xl font-burtons text-gray-800 dark:text-white pt-4 ml-4' href="../Neale_Resume.pdf" target="_blank" rel="noopener noreferrerr">resume</a>
               </li>
               {/* <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
                       href='#'>Resume</a>
@@ -62,7 +62,6 @@ export default function Home() {
             {/* <div className='relative bottom-80 -mt-4 h-52 w-52  sm:-mt-16 sm:bottom-96  sm:h-72 sm:w-72'> */}
             <div className='relative bottom-56 h-36 w-36  sm:-mt-16 sm:bottom-96  sm:h-72 sm:w-72'>
               <Image src={synth}  alt={"vaporwave"} />
-              {/* layout="fill" objectFit='cover' */}
             </div>
           </div>
         </section>
